@@ -112,6 +112,7 @@ group :test do
 end
 
 group :heroku, :production do
+  gem "rails_12factor"
   gem 'unicorn', :require => false
 end
 
